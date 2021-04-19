@@ -1,3 +1,38 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+.text-center {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.app {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.item h4 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.item img {
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
